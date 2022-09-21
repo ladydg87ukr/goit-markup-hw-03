@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 :root {
     --logo-color:#000000;
     --primary-text-color:#212121;
@@ -9,9 +19,16 @@
     --section-ourteam-background-color: #F5F4FA;
 }
 
-body { font-family: "Roboto", sans-serif;
+body { 
+    margin: 0;
+    font-family: "Roboto", sans-serif;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
 }
 
 /* Заголовки */
