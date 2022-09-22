@@ -26,6 +26,7 @@ body {
 }
 
 .container {
+
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
@@ -36,7 +37,7 @@ body {
 /* Page header*/
 
 .page-header {
-    background-color: #757575;
+
 }
 
 .container-nav {
@@ -193,6 +194,7 @@ body {
 
 .hero {
     background-color: var(--secondary-background-color);
+    text-align: center;
 }
 
 .hero-title {
@@ -201,6 +203,9 @@ body {
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    
 }
 
 
@@ -221,6 +226,7 @@ body {
 }
 
 .button {
+    display: inline-block;
     font-family: inherit;
     border: hidden;
     cursor: pointer;
@@ -232,10 +238,13 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
+
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    padding: 10px 32px;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .button.primary:hover,
@@ -250,6 +259,9 @@ body {
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    padding: 6px 22px;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .button.secondary:hover,
@@ -260,6 +272,8 @@ body {
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .uppercase {text-transform: uppercase;}
