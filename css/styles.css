@@ -32,6 +32,22 @@ body {
     margin: 0 auto;
 }
 
+
+/* Page header*/
+
+.page-header {
+    background-color: #757575;
+}
+
+.container-nav {
+
+}
+
+.container-contacs {
+
+}
+
+
 /* Заголовки */
 
 .features-maintext,
