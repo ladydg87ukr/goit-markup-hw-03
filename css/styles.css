@@ -91,6 +91,8 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--grey-text-color);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .maintext-team {
@@ -218,15 +220,22 @@ body {
 /* Секція "Особливості" i "Чим ми займаємося" */
 
 
-.features,
+.features {
+    background-color: var(--primary-background-color);
+}
+
 .ourworks {
     background-color: var(--primary-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* Секція "Наша команда" */
 
 .ourteam {
     background-color: var(--section-ourteam-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .button {
@@ -278,6 +287,18 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    /*display: flex;*/
+}
+
+.list-portfolio {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+
 }
 
 .uppercase {text-transform: uppercase;}
