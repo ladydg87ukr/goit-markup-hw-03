@@ -48,6 +48,53 @@ body {
 
 }
 
+/* Списки */
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /*display: flex;*/
+}
+
+.list-portfolio {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.list-our-works {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.list-our-team {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px; 
+}
+
+.list-our-team-decoration {
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.list-our-substrate {
+    background-color: var(--primary-background-color);
+    text-align: center;
+}
 
 /* Заголовки */
 
@@ -60,6 +107,7 @@ body {
     letter-spacing: 0.03em;
     margin-top: 0 ;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .maintextheader-features {
@@ -76,6 +124,9 @@ body {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    margin: 0 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 
@@ -100,6 +151,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--grey-text-color);
+    margin: 0 0;
+    padding-bottom: 30px;
 }
 
 .maintext-portfolio {
@@ -281,24 +334,6 @@ body {
 .button.secondary:focus {
     background-color: var(--accent-text-color);
     color: var(--light-text-color);
-}
-
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    /*display: flex;*/
-}
-
-.list-portfolio {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-
-
 }
 
 .uppercase {text-transform: uppercase;}
