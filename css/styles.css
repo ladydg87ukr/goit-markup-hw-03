@@ -26,26 +26,11 @@ body {
 }
 
 .container {
-
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-}
-
-
-/* Page header*/
-
-.page-header {
-
-}
-
-.container-nav {
-
-}
-
-.container-contacs {
-
+    outline: auto;
 }
 
 /* Списки */
@@ -67,7 +52,6 @@ body {
 }
 
 .list-our-works {
-
     list-style: none;
     padding: 0;
     margin: 0;
@@ -76,7 +60,6 @@ body {
 }
 
 .list-our-team {
-
     list-style: none;
     padding: 0;
     margin: 0;
@@ -84,11 +67,15 @@ body {
     gap: 30px; 
 }
 
+.our-team-image {
+    display: block;
+}
+
 .list-our-team-decoration {
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-0px 1px 1px rgba(0, 0, 0, 0.14),
-0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .list-our-substrate {
@@ -135,7 +122,16 @@ border-radius: 0px 0px 4px 4px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin: 0 0;
 } 
+
+.maintext-portfolio {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--grey-text-color);
+    margin: 0 0;
+}
 
 .maintext-features {
     font-size: 14px;
@@ -155,12 +151,6 @@ border-radius: 0px 0px 4px 4px;
     padding-bottom: 30px;
 }
 
-.maintext-portfolio {
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-    color: var(--grey-text-color);
-}
 
 /* Скрыть заголовки */
     
@@ -199,6 +189,7 @@ border-radius: 0px 0px 4px 4px;
 /* Навігація */
 
 .site-nav {
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -219,18 +210,36 @@ border-radius: 0px 0px 4px 4px;
     color: var(--accent-text-color);
 }
 
+.site-nav li {
+    margin-right: 50px;
+}
+
 /* Контактная информация */
 
 .contacts {
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
+.contacts-footer .list,
+.contacts-footer .link,
 .contacts .list,
 .contacts .link {
     text-decoration: none;
+}
+
+.contacts li {
+    margin-right: 50px;
+}
+
+.contacts-footer {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .email-header, 
@@ -254,6 +263,8 @@ border-radius: 0px 0px 4px 4px;
 .hero {
     background-color: var(--secondary-background-color);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -289,6 +300,7 @@ border-radius: 0px 0px 4px 4px;
     background-color: var(--section-ourteam-background-color);
     padding-top: 94px;
     padding-bottom: 94px;
+
 }
 
 .button {
