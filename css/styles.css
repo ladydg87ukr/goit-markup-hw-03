@@ -33,6 +33,16 @@ body {
     outline: auto;
 }
 
+.container-nav {
+    display: flex;
+    align-items: center;
+}
+
+.container-contacts {
+    display: flex;
+    margin-left: auto;
+}
+
 /* Списки */
 
 .list {
@@ -71,7 +81,8 @@ body {
     gap: 30px; 
 }
 
-.our-team-image {
+.our-team-image,
+.portfolio-image {
     display: block;
 }
 
@@ -88,6 +99,11 @@ body {
 .list-our-substrate {
     background-color: var(--primary-background-color);
     text-align: center;
+}
+
+.list-portfolio-substrate {
+    border: 1px solid #EEEEEE;
+    padding: 20px 24px;
 }
 
 /* Заголовки */
@@ -195,12 +211,14 @@ body {
 
 /* Навігація */
 
+
 .site-nav {
     display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-left: 93px;
 }
 
 .site-nav .link:hover,
@@ -209,8 +227,13 @@ body {
 }
 
 .site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     text-decoration: none;
     color: var(--primary-text-color);
+
 }
 
 .site-nav .link.current {
@@ -235,7 +258,10 @@ body {
 .contacts-footer .link,
 .contacts .list,
 .contacts .link {
+    margin-top: 9px;
+    margin-bottom: 9px;
     text-decoration: none;
+    display: block;
 }
 
 .contacts li {
@@ -360,7 +386,12 @@ body {
 
 /* Футер*/
 
-.footer {background-color: var(--secondary-background-color);}
+.footer {
+    background-color: var(--secondary-background-color);
+    height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .address {
     color: var(--light-text-color);
@@ -368,6 +399,7 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    margin-top: 20px;  
 }
 
 .logo-footer {color: var(--light-text-color);}
