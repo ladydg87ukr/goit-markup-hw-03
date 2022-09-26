@@ -30,17 +30,32 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: auto;
 }
 
 .container-nav {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.container-buttoms {
+    padding-top: 94px;
+    display: flex;
 }
 
 .container-contacts {
     display: flex;
     margin-left: auto;
+}
+
+.buttom-list {
+    display: block;
+    gap: 8px;
+}
+
+.portfolio {
+ padding-top: 50px;
+ padding-bottom: 94px;
 }
 
 /* Списки */
@@ -49,7 +64,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    /*display: flex;*/
+    display: flex;
 }
 
 .list-portfolio {
@@ -258,10 +273,7 @@ body {
 .contacts-footer .link,
 .contacts .list,
 .contacts .link {
-    margin-top: 9px;
-    margin-bottom: 9px;
     text-decoration: none;
-    display: block;
 }
 
 .contacts li {
@@ -273,6 +285,13 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: block;
+}
+
+.contacts-footer li {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    display: block;
 }
 
 .email-header, 
@@ -323,7 +342,6 @@ body {
 
 .ourworks {
     background-color: var(--primary-background-color);
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -331,10 +349,15 @@ body {
 
 .ourteam {
     background-color: var(--section-ourteam-background-color);
+}
+
+.features,
+.ourteam {
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
+
+
 
 .button {
     display: inline-block;
