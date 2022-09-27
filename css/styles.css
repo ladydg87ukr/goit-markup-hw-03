@@ -45,16 +45,12 @@ body {
 .container-buttoms {
     padding-top: 94px;
     display: flex;
+    justify-content: center;
 }
 
 .container-contacts {
     display: flex;
     margin-left: auto;
-}
-
-.buttom-list {
-    display: block;
-    gap: 8px;
 }
 
 .portfolio {
@@ -70,6 +66,10 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+}
+
+.buttom-list {
+    gap: 8px;
 }
 
 .list-portfolio {
