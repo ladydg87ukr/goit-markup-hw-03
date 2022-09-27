@@ -32,9 +32,13 @@ body {
     margin: 0 auto;
 }
 
-.container-nav {
+.container-nav,
+.container-nav-border {
     display: flex;
     align-items: center;
+}
+
+.container-nav-border {
     border-bottom: 1px solid #EEEEEE;
 }
 
