@@ -319,6 +319,7 @@ body {
 
 .hero {
     background-color: var(--secondary-background-color);
+    justify-content: center;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -332,9 +333,17 @@ body {
     letter-spacing: 0.06em;
     margin-top: 0;
     margin-bottom: 30px;
-    
+
 }
 
+.hero-title-position {
+    width: 696px;
+    display: inline-block;
+}
+
+.hero-buttom-position {
+    display: block;
+}
 
 /* Основной блок */
 
